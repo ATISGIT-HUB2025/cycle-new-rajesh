@@ -1,0 +1,113 @@
+.top-nav {
+  background: #fff;
+}
+
+@media (max-width: 1024px) {
+  .product-top-desc::after {
+    display: none;
+  }
+  header .navbar.navbar-expand-xl .navbar-nav .nav-item a {
+    font-size: 18px !important;
+  }
+}
+
+.slick-prev,
+.slick-next {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  background-color: rgba(0, 0, 0, 0.5);
+  color: #fff;
+  border: none;
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 1000;
+  cursor: pointer;
+}
+
+.slick-prev {
+  left: 10px;
+}
+
+.slick-next {
+  right: 10px;
+}
+
+.slick-prev:hover,
+.slick-next:hover {
+  background-color: #00aaed;
+}
+
+.header-bottom {
+  background: #00aaed;
+  padding: 5px 0;
+}
+
+.banner-slide {
+  width: 100%;
+  height: 60vh;
+}
+.banner-slide img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+
+.banner_container {
+  background-image: url(../images/banner/banner2.png);
+  background-position: center;
+  width: 100%;
+  height: 624px;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.banner_contain {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  justify-content: center;
+  align-items: center;
+}
+
+.banner_contain h1 {
+  font-size: 40px;
+  font-weight: 600;
+}
+.banner_contain h1 span {
+  color: #00aaed;
+}
+
+.banner_contain p {
+  color: #667085;
+  font-size: 16px;
+  font-weight: 400;
+  text-align: center;
+}
+
+.product-detail {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  align-items: center;
+}
+
+.product-box-slider {
+  margin: 0 -10px; /* Negative margin to offset inner .product-box spacing */
+}
+
+.product-detail a h6 {
+  font-size: 25px;
+  font-weight: 600;
+  color: #23272f;
+}
+.product-detail p {
+  font-size: 14px;
+  font-weight: 400;
+  color: #667085;
+  margin: 0;
+}
