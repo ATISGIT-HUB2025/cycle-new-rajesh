@@ -20081,6 +20081,8 @@ span {
   border-radius: 5px;
   overflow: hidden;
   position: relative;
+  height: 500px;
+  background: linear-gradient(to bottom, #23272f00, #23272f);
 }
 
 [dir="rtl"] .banner-contain .banner-details {
@@ -21915,7 +21917,8 @@ span {
 }
 
 footer {
-  background-color: #f8f8f8;
+  background-color: #23272F;
+  color: #fff;
   position: relative;
   z-index: 0;
 }
@@ -21956,9 +21959,7 @@ footer:before {
   }
 }
 
-footer .main-footer {
-  border-top: 1px dashed #c1c1c1;
-}
+
 
 @media (max-width: 767px) {
   footer .main-footer {
@@ -22042,7 +22043,7 @@ footer .main-footer .footer-logo .theme-logo {
 }
 
 footer .main-footer .footer-logo .theme-logo a img {
-  width: calc(120px + 40 * (100vw - 320px) / 1600);
+  width: calc(50px + 40 * (100vw - 320px) / 1600);
 }
 
 footer .main-footer .footer-logo .theme-logo h4 {
@@ -22055,7 +22056,7 @@ footer .main-footer .footer-logo .footer-logo-contain {
 
 footer .main-footer .footer-logo .footer-logo-contain p {
   font-size: calc(14px + 2 * (100vw - 320px) / 1600);
-  color: #4a5568;
+  color: #98A2B3;
   line-height: 27px;
   margin-bottom: 0;
   width: 88%;
@@ -22134,6 +22135,8 @@ footer .main-footer .footer-logo .footer-logo-contain .address li a {
 footer .main-footer .footer-title h4 {
   font-size: calc(17px + 3 * (100vw - 320px) / 1600);
   font-weight: 600;
+  color: #98A2B3;
+  font-size: 14px;
 }
 
 @media (max-width: 575px) {
@@ -22237,6 +22240,8 @@ footer .main-footer .footer-contain ul li:hover a::after {
 footer .main-footer .footer-contain ul li a {
   display: inline-block;
   position: relative;
+  color: #fff;
+  font-size: 12px;
 }
 
 footer .main-footer .footer-contain ul li a::before {
@@ -22466,7 +22471,7 @@ footer .sub-footer .social-link ul li a {
 }
 
 footer .sub-footer .social-link ul li a i {
-  color: #4a5568;
+  color: #98A2B3;
   -webkit-transition: all 0.3s ease-in-out;
   transition: all 0.3s ease-in-out;
 }
@@ -33613,6 +33618,7 @@ body.rtl .menu-label {
 .product-box .sold .price {
   font-weight: 600;
   margin-top: 0;
+  color: #23272f;
 }
 
 .product-box .sold del {
