@@ -207,6 +207,7 @@
 .banner_contain h1 {
   font-size: 40px;
   font-weight: 600;
+  text-align: center;
 }
 .banner_contain h1 span {
   color: #00aaed;
@@ -286,7 +287,7 @@
   color: #23272f;
   font-weight: 500;
   font-size: 14px;
-  background-color: #fff;
+  background-color: #e8fffb;
   cursor: pointer;
   transition: all 0.3s ease;
   -webkit-transition: all 0.3s ease;
@@ -692,3 +693,5 @@
     margin-bottom: 0;
   }
 }
+
+/* =============choose your ride====================== */
