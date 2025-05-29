@@ -776,14 +776,14 @@ $(".slider-6").slick({
 $(".slider-6_1").slick({
   arrows: false,
   infinite: true,
-  slidesToShow: 6,
+  slidesToShow: 3,
   slidesToScroll: 1,
   dots: true,
   responsive: [
     {
       breakpoint: 1430,
       settings: {
-        slidesToShow: 5,
+        slidesToShow: 3,
         autoplay: true,
         autoplaySpeed: 3500,
       },
@@ -791,13 +791,13 @@ $(".slider-6_1").slick({
     {
       breakpoint: 1199,
       settings: {
-        slidesToShow: 4,
+        slidesToShow: 3,
       },
     },
     {
       breakpoint: 768,
       settings: {
-        slidesToShow: 3,
+        slidesToShow: 2,
       },
     },
     {

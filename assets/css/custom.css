@@ -694,4 +694,127 @@
   }
 }
 
-/* =============choose your ride====================== */
+/* =============breadcum====================== */
+.breadcum_info h2 {
+  font-size: 64px;
+  font-weight: 600;
+  color: #23272f;
+}
+.breadcum_info p {
+  font-size: 24px;
+  line-height: 32px;
+  font-weight: 600;
+  color: #23272f;
+}
+
+/* =============================product list=================================== */
+.shop-section
+  .show-button
+  .top-filter-menu
+  .category-dropdown
+  .dropdown
+  .dropdown-toggle {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  border: 1px solid #d0d5dd;
+  background-color: transparent;
+  font-size: calc(12px + 1 * (100vw - 320px) / 1600);
+  padding: calc(9px + 1 * (100vw - 320px) / 1600) 15px;
+  border-radius: 12px;
+  color: #23272f;
+  font-weight: 600;
+}
+
+.filter_title {
+  font-weight: 500;
+  font-size: 14px;
+  color: #23272f;
+}
+
+.product-box_new.selected {
+  border: 2px solid #ff891f;
+}
+
+/* =================================product details=================================== */
+
+.offer_title {
+  border-radius: 12px;
+  width: 100%;
+  padding: 10px;
+  background-color: #e8fffb;
+  color: #ff891f;
+  font-weight: 600;
+  border: 1px dotted #ff891f;
+}
+
+.product_bottom_tropy {
+  margin-top: 2rem;
+  border-top: 1px solid #eaecf0;
+  padding-top: 10px;
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  text-align: center;
+  gap: 10px;
+}
+
+.tropy_item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 5px;
+}
+
+.product_tropy_icon {
+  width: 40px;
+  height: 40px;
+  border: 1px solid #f2f4f7;
+  background: #f2f4f7;
+  border-radius: 50%;
+  color: #23272f;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.product_tropy_label {
+  font-size: 12px;
+  margin: 0;
+}
+
+.freqently_brouther {
+  border: 1px solid #eaecf0;
+  border-radius: 16px;
+  padding: 10px;
+}
+
+.info_section {
+  background: #23272f;
+  padding: 40px;
+}
+
+.info_icon {
+  width: 60px;
+  height: 60px;
+}
+.info_icon img {
+  width: 100%;
+  height: 100%;
+}
+
+.info_text h3 {
+  color: #e8fffb;
+  font-size: 20px;
+  font-weight: 600;
+}
+.info_text p {
+  color: #07828b;
+  font-size: 14px;
+  font-weight: 400;
+}
