@@ -23585,6 +23585,7 @@ header .top-nav .navbar-top {
     -webkit-box-pack: normal;
     -ms-flex-pack: normal;
     justify-content: normal;
+    padding: 16px;
   }
 }
 
@@ -23593,6 +23594,7 @@ header .top-nav .navbar-top {
     -webkit-box-pack: justify;
     -ms-flex-pack: justify;
     justify-content: space-between;
+    padding: 16px;
   }
 }
 
@@ -24254,7 +24256,7 @@ header
   background-color: rgb(255, 137, 31);
   font-size: 12px;
   padding: 0;
-  border-radius: 2px;
+  border-radius: 50px;
 }
 
 [dir="rtl"]
@@ -31788,7 +31790,7 @@ header .offcanvas-backdrop {
   }
   header .offcanvas-collapse .offcanvas-body .navbar-nav .nav-item {
     border-top: 0;
-    padding-bottom: 35px;
+    padding-bottom: 22px;
   }
   header .offcanvas-collapse .offcanvas-body .navbar-nav .nav-link {
     display: -webkit-box;
