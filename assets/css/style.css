@@ -32859,7 +32859,7 @@ body.rtl .menu-label {
 }
 
 .add-to-cart-box .qty-box .input-group {
-  background-color: #f8f8f8;
+  background-color: #fff;
   border-radius: 50px;
   padding: 4px;
   text-align: center;
@@ -33015,7 +33015,7 @@ body.rtl .menu-label {
 }
 
 .qty-box .input-group {
-  background-color: #f8f8f8;
+  background-color: #fff;
   border-radius: 7px;
   padding: 4px;
   text-align: center;
@@ -37560,8 +37560,8 @@ body.rtl .menu-label {
 .cart-table table tbody tr td.product-detail .product .product-detail ul li {
   display: block;
   white-space: nowrap;
-  margin-bottom: 8px;
-  font-size: 14px;
+  margin-bottom: 3px;
+  font-size: 12px;
 }
 
 .cart-table
@@ -37614,7 +37614,7 @@ body.rtl .menu-label {
   li.name
   a {
   font-weight: 500;
-  font-size: 16px;
+  font-size: 14px;
   color: #222;
 }
 
