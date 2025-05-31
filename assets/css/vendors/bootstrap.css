@@ -11293,10 +11293,10 @@ textarea.form-control-lg {
 
 .form-floating > label {
   position: absolute;
-  top: 0;
+  top: 4px;
   left: 0;
   height: 100%;
-  padding: 1rem 0.75rem;
+  padding: 10px;
   pointer-events: none;
   border: 1px solid rgba(0, 0, 0, 0);
   transform-origin: 0 0;

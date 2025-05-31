@@ -14952,7 +14952,7 @@ input[type="number"]::-webkit-outer-spin-button {
 
 .theme-form-floating .form-control,
 .theme-form-floating .form-select {
-  height: calc(51px + 3 * (100vw - 320px) / 1600);
+  height: calc(45px + 3 * (100vw - 320px) / 1600);
   line-height: normal;
 }
 
@@ -14998,7 +14998,7 @@ input[type="number"]::-webkit-outer-spin-button {
 }
 
 .theme-form-floating label {
-  font-size: calc(13px + 3 * (100vw - 320px) / 1600);
+  font-size: calc(10px + 3 * (100vw - 320px) / 1600);
   color: #4a5568;
   border: none;
 }
